@@ -40,8 +40,10 @@ Created a new forest
 Configured domain - VS.local
 Verified DNS installation
 
-<img width="2406" height="1020" alt="image" src="https://github.com/user-attachments/assets/059e8930-d58a-4193-899d-3f1a919325df" />
-
 ### Outcome
 
 Successfully deployed a Domain Controller and established the Active Directory environment.
+
+<img width="2406" height="1020" alt="image" src="https://github.com/user-attachments/assets/059e8930-d58a-4193-899d-3f1a919325df" />
+
+
