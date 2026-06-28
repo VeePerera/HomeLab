@@ -96,6 +96,8 @@ Join a client computer to the Domain. Test the implemented GPO to control users 
 - Windows server installed
 - Active Directory tools installed
 - GPOs created
+- Domain Controller IP needs to be set to static IP - To ensure consistent and reliable DNS resolution and connectivity
+
 
 
 
