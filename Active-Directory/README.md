@@ -97,6 +97,35 @@ Join a client computer to the Domain. Test the implemented GPO to control users 
 - Active Directory tools installed
 - GPOs created
 - Domain Controller IP needs to be set to static IP - To ensure consistent and reliable DNS resolution and connectivity
+- Client VM installed
+
+### Join Client to the Domain Controller
+
+#### Configure Domain
+- Through Change adpater settings > Internet Protocol Version 4 (TCP/IPv4) > Properties  
+- Set the Preferred DNS setting to Domain Controller's IP
+
+#### Change the computer Name/Domain
+- Select This PC > Properties > Advanced Settings > Computer Name > Select Domain > Enter Domain Name  
+- Provide Adminstrator credentials to confirm the action
+- Restart 
+
+<img width="872" height="626" alt="image" src="https://github.com/user-attachments/assets/cf6c65d6-ac0f-4232-8054-bf4d418b8f11" />
+
+#### Verify computer in AD
+- Go to the Server and under computers, verify the domainjoined client computer is visible    
+- Move this to the correct OU
+
+<img width="628" height="412" alt="image" src="https://github.com/user-attachments/assets/4cea7b2b-c11a-4272-bc8d-dc574c5564e4" />
+
+#### Common Problems and Troubleshooting
+- Cannot Ping Domain Controller - Client and Domain were in diiferent virtual Networks  
+- Desktop Policy was not applied - Groups were not added properly
+
+
+
+
+
 
 
 
