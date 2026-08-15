@@ -45,5 +45,13 @@ Create a new group policy under your computers > Computer Configurations > Admin
 
 <img width="998" height="254" alt="image" src="https://github.com/user-attachments/assets/138340f3-808d-4985-86ad-6c4eb1d99195" />
 
+### Step 5 - Setup BitLocker in Client
+- In Windows client turn on the Bit Locker
+- Choose how to unlock Bit Locker
+<img width="1020" height="768" alt="image" src="https://github.com/user-attachments/assets/309b9ab5-f5a7-482f-b13f-4e9d03b218e1" />
+
+
+
+
 
 
