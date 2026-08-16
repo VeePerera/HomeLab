@@ -25,4 +25,15 @@ The recommended way to partition an extra drive is when installing the OS.
 
 <img width="1108" height="738" alt="image" src="https://github.com/user-attachments/assets/50713bb9-4f7a-4023-bbe3-6eec63c41837" />
 
+## Real-World Scenario 
+- C drive is damaged or crashed, therefore, you need to repair it by re-installing the OS. 
+_For the demonstration purpose, C drive is deleted using VMs > Power on to firmware > Boot up using CDROM Drive_
+
+<img width="1034" height="746" alt="image" src="https://github.com/user-attachments/assets/9115f738-bcf6-4402-97bc-a5060e1f374a" />
+
+- Power off the VM > Choose to Boot up via CDROM Drive > Select the unallocated space previously assigned for C or the primary drive > Proceed
+
+<img width="806" height="564" alt="image" src="https://github.com/user-attachments/assets/7fd0b8a1-cffd-4723-9240-efe16666a437" />
+
+
 
