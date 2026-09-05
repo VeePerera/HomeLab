@@ -56,38 +56,6 @@ OU - TELCO, FINTECh (Sub OU)
 GROUPS - Fintech_Users: Security group to assign user rights and permissions  
 GROUPS - Fintech_DL_Managers : Distribution group to send emails to Fintech managers  
 
-### Group Policy Object 
-Collection of policies in AD that can be applied to domains and users.
-
-#### Objective
-Configure basic GPO required for organizations. These policies can be applied to an OU or group of objects. Demonstrated below a
-
-#### Password Policy
-Enforce password policy for the computers, laptops getting assigned to the Domain. This is configured with Computer configuration > Policies. Policies enable rules that cannot be modified by individual users. 
-
-<img width="1756" height="992" alt="image" src="https://github.com/user-attachments/assets/fd93c999-ee22-4949-b1bb-c957fa13a5fb" />
-
-#### Driver Mapping Policy
-Map Network Drivers for users when they sign-in to the account. This is configured with User configuration > Preferences. Preferences can be modified later by individual users. 
-
-<img width="1814" height="994" alt="image" src="https://github.com/user-attachments/assets/cda49472-a98a-4708-b2aa-5475699a07df" />
-
-#### Desktop Wallpaper Policy
-Add a default wallpaper to all users. This is configured with User configuration > Policies. 
-
-<img width="2442" height="1194" alt="image" src="https://github.com/user-attachments/assets/10373ba5-2fe6-41e6-a212-c21f77c2d1f3" />
-
-#### USB Restriction Policy
-Prevent users from usign USB Storage devices. This is configured with Computer configuration > Policies. 
-
-<img width="2156" height="982" alt="image" src="https://github.com/user-attachments/assets/f76af537-acaf-4d64-a6a7-1b8f06b45bb0" />
-
-#### Account Lockout Policy
-Configure account lockout policy to prevent brute force attacks. This is configured with Computer configuration > Policies. 
-
-<img width="1922" height="980" alt="image" src="https://github.com/user-attachments/assets/208f0efb-a1e1-4938-9d01-5af15f6c5413" />
-
-
 ### Domain-Join 
 ### Objective 
 Join a client computer to the Domain. Test the implemented GPO to control users and computer settings. 
