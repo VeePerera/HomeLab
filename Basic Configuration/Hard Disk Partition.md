@@ -10,6 +10,9 @@ The recommended way to partition an extra drive is when installing the OS.
 
 <img width="762" height="560" alt="image" src="https://github.com/user-attachments/assets/83cda174-b120-4cc6-9815-3ff93325c82c" />
 
+- Once the OS installation is complete. Go to This PC > Right-click and select Manage
+- Select Computer Management > Disk Management
+- Right-click on the Unallocated space and select New Simple Volume
 <img width="1134" height="756" alt="image" src="https://github.com/user-attachments/assets/a25b607b-1975-47a9-b659-beb2df8d86f8" />
 
 <img width="1268" height="754" alt="image" src="https://github.com/user-attachments/assets/20a5ff34-f810-4e61-a030-9c96998c0e05" />
