@@ -10,6 +10,12 @@
 <img style="width:50%; height:auto;" alt="image" src="https://github.com/user-attachments/assets/e24d64e4-6217-4da9-aace-1e088716bf97" />
 
 ### Method 2 - Copy via Advanced Settings
+- Select This PC > Properties > Advanced Settings
+- Click Settings under User Profile
+- Select the profile and click Copy to
+- Select the external driver location and OK
+<img style="width:50%; height:auto;" alt="image" src="https://github.com/user-attachments/assets/6ba52d40-852c-41b5-9a4f-0577532cf1cf" />
+
 
 
 
